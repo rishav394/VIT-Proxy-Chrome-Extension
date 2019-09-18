@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "VIT Proxy",
+	"version": "1.1",
+	"description": "Enables you to use VIT's proxy server to enable Internet access even after 12:30 AM in VIT Hostel, provided that your WiFi is not disconnected even once after 12:20 AM.",
+	"browser_action": {
+		"default_popup": "popup/popup.html",
+		"default_icon": {
+			"16": "images/icons8_Disconnected_128px.png",
+			"32": "images/icons8_Disconnected_128px.png",
+			"48": "images/icons8_Disconnected_128px.png",
+			"128": "images/icons8_Disconnected_128px.png"
+		}
+	},
+	"icons": {
+		"16": "images/icons8_Disconnected_128px.png",
+		"32": "images/icons8_Disconnected_128px.png",
+		"48": "images/icons8_Disconnected_128px.png",
+		"128": "images/icons8_Disconnected_128px.png"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": ["background", "proxy"]
+}
