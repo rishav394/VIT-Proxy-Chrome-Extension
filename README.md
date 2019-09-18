@@ -8,10 +8,16 @@ Fear not coz VIT Proxy Chrome Extension lets you do access the internet even aft
 
 ## Steps
 
-1. Install the extension
+1. Build and install the extension
 2. Click on the installed extension
 3. Hit the slider to turn on Proxy for chrome
 4. Enjoy 💪
+
+## How to build?
+1. Rename the `.env.example` to `.env` after setting up the variables correctly
+2. Run `yarn build`
+3. Create a folder called `build` in root directory and run `yarn compile`
+4.  Use the unpacked extension **OR** Drag and drop the built extension into `chrome://extension` after turning Developer mode ON.
 
 ## Suggestions
 
