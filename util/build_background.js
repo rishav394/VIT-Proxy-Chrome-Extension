@@ -1,4 +1,7 @@
+// Cant use import and export modules in background scripts. Using this sorry method instead.
+
 require('dotenv').config();
+
 var fs = require('fs');
 fs.readFile('./util/background.unrendered.js', (err, data) => {
 	if (err) {
@@ -14,7 +17,7 @@ fs.readFile('./util/background.unrendered.js', (err, data) => {
 				console.error(err);
 			} else {
 				console.log(
-					'Successfully built background.js into the sr directory.',
+					'Successfully built background.js into the src directory.',
 				);
 			}
 		});
