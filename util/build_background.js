@@ -16,9 +16,7 @@ fs.readFile('./util/background.unrendered.js', (err, data) => {
 			if (err) {
 				console.error(err);
 			} else {
-				console.log(
-					'Successfully built background.js into the src directory.',
-				);
+				console.log('Successfully built background.js into the src directory.');
 			}
 		});
 	}
